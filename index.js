@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
 }) //criando mais um endpoit
 
 app.get('/feature2', (req, res) => {
+  console.log('new feature2')
+})
+
+app.get('/feature2', (req, res) => {
   console.log('new feature3')
 })
 
